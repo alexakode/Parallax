@@ -1,0 +1,97 @@
+/*header, h1, nav, ul, a, li
+main, section, p
+.bg-img, .bg-colour*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  min-width: 100svw;
+  background-color: #3a0ca3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+h1 {
+  font-size: 2.5rem;
+  color: #f72585;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #7209b7;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60svw;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  list-style-type: none;
+  height: 100%;
+  font-size: 16px;
+}
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: #f72585;
+}
+a:hover {
+  font-size: 20px;
+}
+main {
+  background-color: turquoise;
+  min-width: 100svw;
+  min-height: 100svh;
+}
+section {
+  min-width: 100svw;
+  min-height: 100svh;
+  text-align: center;
+  padding: 30px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+p {
+  margin: 20px auto;
+  width: 60svw;
+  font-size: 16px;
+  background-color: #4362ee64;
+  border-radius: 10px;
+  padding: 10px;
+}
+.bg-img {
+  background-color: #4362ee64;
+  background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 100svw;
+  min-height: 100svh;
+}
+#flair {
+  background-image: url(./images/flair.jpeg);
+  background-position: center;
+  width: 80%;
+}
+#rise {
+  background-image: url(./images/rise.jpeg);
+}
+#set {
+  background-image: url(./images/set.jpg);
+}
